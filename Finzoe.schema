@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `Birthdays` (
+	`ID` INTEGER PRIMARY KEY,
+	`Name` TEXT,
+	`Date` TEXT
+);
+CREATE TABLE IF NOT EXISTS `Timezones` (
+	`ID` INTEGER PRIMARY KEY,
+	`Name` TEXT,
+	`Zone` TEXT,
+	`Offset` INTEGER
+);
